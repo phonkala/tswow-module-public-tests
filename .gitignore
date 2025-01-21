@@ -1,0 +1,23 @@
+# Build/Garbage
+build/
+DBFilesClient/
+global.d.ts
+tsconfig.json
+Crashes/
+logs/
+log.txt
+Server.log
+DBErrors.log
+*.conf.dist
+*_backup/
+
+# Extracted client data
+**/datasets/*/dbc_source
+**/datasets/*/dbc
+**/datasets/*/maps
+**/datasets/*/mmaps
+**/datasets/*/vmaps
+**/datasets/*/Buildings
+**/datasets/*/Cameras
+**/datasets/*/luaxml
+**/datasets/*/luaxml_source
