@@ -11,6 +11,7 @@ export const alight = std.Spells
     .Description.enGB.set("Launch yourself 40 yd into the air and slowfall.")
     .Duration.setSimple(10000)
     .Cooldown.Time.set(60000)
+    .Cooldown.GlobalTime.set(1500)
     .Effects.addMod(x=>x
         .Type.APPLY_AURA.set()
         .Aura.FEATHER_FALL.set()
