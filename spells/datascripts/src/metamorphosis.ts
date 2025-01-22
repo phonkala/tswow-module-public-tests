@@ -9,7 +9,7 @@ import { std } from "wow/wotlk";
 
 const CONFIG = {
     duration: 45000,
-    cooldown: 10000
+    cooldown: 180000
 }
 
 
