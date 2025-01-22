@@ -105,6 +105,8 @@ export const metamorphosis = std.Spells
     .create("tswow-module-public-tests.spells", "spell.metamorphosis")
     .Name.enGB.set("Metamorphosis")
     .Description.enGB.set("Reset all rune cooldowns and all runes become death runes. Haste and movement speed increased by 35%, and armor is increased by 100%.")
+    .Power.Type.RUNIC_POWER.set()
+    .Power.CostBase.set(600)
     .Duration.setSimple(CONFIG.duration)
     .Cooldown.Time.set(CONFIG.cooldown)
     .Effects.addMod(x=>x
