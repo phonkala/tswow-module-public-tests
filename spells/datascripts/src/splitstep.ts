@@ -9,6 +9,7 @@ export const splitstep = std.Spells
     .Duration.setSimple(5000)
     .Cooldown.Time.set(30000)
     .Cooldown.GlobalTime.set(1500)
+    .Attributes.HIDE_FROM_AURA_BAR.set(1)
     .AuraInterruptFlags.setBit(25, 1)
     .Effects.addMod(x=>x
         .Type.APPLY_AURA.set()
@@ -24,6 +25,7 @@ export const splitstepSecond = std.Spells
     .create("tswow-module-public-tests.spells", "spell.splitstep-second")
     .Name.enGB.set("Splitstep (second)")
     .Duration.setSimple(5000)
+    .Attributes.HIDE_FROM_AURA_BAR.set(1)
     .AuraInterruptFlags.setBit(25, 1)
     .Effects.addMod(x=>x
         .Type.APPLY_AURA.set()
@@ -39,6 +41,7 @@ export const splitstepThird = std.Spells
     .create("tswow-module-public-tests.spells", "spell.splitstep-third")
     .Name.enGB.set("Splitstep (third)")
     .Duration.setSimple(5000)
+    .Attributes.HIDE_FROM_AURA_BAR.set(1)
     .AuraInterruptFlags.setBit(25, 1)
     .Effects.addMod(x=>x
         .Type.APPLY_AURA.set()

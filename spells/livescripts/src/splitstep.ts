@@ -76,6 +76,10 @@ export function Main(events: TSEvents) {
 
     
 
+    // Helper functions.
+    
+
+
     function calcNewPosition (x: number, y: number, z: number, o: number, angle: number, distance: number): { x: number, y: number, z: number } {
         
         const newOrientation = o + angle;
