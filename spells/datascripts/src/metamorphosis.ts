@@ -2,8 +2,7 @@ import { std } from "wow/wotlk";
 
 
 
-// TODO: This one has so many effects, we need multiple spells/auras to do it all.
-// Currently making autoattack hit multiple targets or extending it's range isn't possible without core edits afaik.
+// TODO: Currently making autoattack hit multiple targets or extending it's range isn't possible without core edits afaik.
 
 
 

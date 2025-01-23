@@ -2,8 +2,9 @@ import { std } from "wow/wotlk";
 
 
 
-// TODO: Need to add aura to allow casting while flying/falling/moving.
 // TODO: Add cooldown reduction if certain aura is active (Metamorphosis).
+
+
 
 export const alight = std.Spells
     .create("tswow-module-public-tests.spells", "spell.alight")
