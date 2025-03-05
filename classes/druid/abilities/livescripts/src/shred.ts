@@ -25,7 +25,7 @@ export function Main(events: TSEvents) {
 
     // Modify ranks 3 and above.
 
-    let hasStealth = false;
+    let hasStealth = false; // Don't do this, use player.SetBool() etc.
 
     events.Spell.OnCheckCast(TAG("tswow-module-public-tests.classes.druid.abilities", "spell.shred.rank-3+"), (spell, result) => {
 

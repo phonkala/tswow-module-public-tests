@@ -8,7 +8,7 @@ export const archdruid = std.Classes
     .Races.add(["NIGHTELF", "TROLL"])
     .Roles.set(true, true, true)
     .UI.Color.set(0x8a6be6)
-    .UI.setIcon(std.Image.readFromModule("tswow-module-public-tests", "classes/archdruid/assets/icons/ability_racial_forceshield.blp"))
+    .UI.setIcon(std.Image.readFromModule("tswow-module-public-tests", "classes/archdruid/assets/Interface/Icons/Ability_Druid_KingoftheJungle.png"))
     .UI.ButtonPos.setRelativeTo("CharacterCreateClassButton1")
     .UI.ButtonPos.setRelativePoint("TOP")
     .UI.ButtonPos.setPos(0, 44)
